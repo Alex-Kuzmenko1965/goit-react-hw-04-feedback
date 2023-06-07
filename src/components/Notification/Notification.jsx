@@ -2,6 +2,6 @@
 
 export const Notification = ({ message }) => {
   return (
-    <p>There is no feedback{message}</p>
+    <p>{message}</p>
   );
 } 

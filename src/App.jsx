@@ -30,14 +30,12 @@ export default class App extends Component {
 
   return (
     <>    
-    <Section title={"Please leave feedback"}>   
+    <Section title={"Please leave feedback"} />   
       <FeedbackOptions
       options = {options}
-      onLeaveFeedback = {this.onLeaveFeedback} />
-    </Section>
-    <Section title={"Statistics"}>
+      onLeaveFeedback = {this.onLeaveFeedback} />    
+    <Section title={"Statistics"} />
       <Statistics  good={good} neutral={neutral} bad={bad} total={total} positivePercentage={positivePercentage} />
-    </Section>
     </>      
   );}
 }
