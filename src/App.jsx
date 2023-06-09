@@ -5,10 +5,6 @@ import { Section } from './components/Section/Section';
 import { FeedbackOptions } from './components/FeedbackOptions/FeedbackOptions';
 import { Statistics } from './components/Statistics/Statistics';
 
-// const useOpyions = (defaultValue) => {
-//   const [state, setState] = useState(0);
-// }
-
 export const App = () => {
   const [good, setGood] = useState(0);  
   const [neutral, setNeutral] = useState(0);
