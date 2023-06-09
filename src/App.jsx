@@ -13,7 +13,7 @@ export const App = () => {
   const [good, setGood] = useState(0);  
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
-  const options = ['good', 'neutral', 'bad'];
+  const options = Object.keys({good, neutral, bad});
   // console.log(options);
   const total = good + neutral + bad;
   // console.log(total);
